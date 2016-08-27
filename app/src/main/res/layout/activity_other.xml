@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_margin="8dp"
+    tools:context="com.example.android.musicalstructureapp.Other">
+    
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:text="Podcasts"
+        android:background="@android:color/holo_orange_light"
+        android:id="@+id/podcasts"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:text="Audiobooks"
+        android:layout_marginTop="8dp"
+        android:background="@android:color/holo_purple"
+        android:id="@+id/audiobooks"/>
+
+</LinearLayout>
