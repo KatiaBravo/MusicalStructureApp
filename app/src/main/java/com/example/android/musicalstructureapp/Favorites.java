@@ -18,7 +18,6 @@ public class Favorites extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 Intent nowPlayingIntent = new Intent(Favorites.this, NowPlaying.class);
-
                 startActivity(nowPlayingIntent);
             }
         });

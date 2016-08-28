@@ -5,7 +5,6 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
-import android.widget.TextView;
 
 public class Songs extends AppCompatActivity {
 
@@ -18,9 +17,9 @@ public class Songs extends AppCompatActivity {
         a.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent aIntent = new Intent(Songs.this, A.class);
-
-                startActivity(aIntent);
+                Intent intent = new Intent(Songs.this, Song.class);
+                intent.putExtra("group", "A");
+                startActivity(intent);
             }
         });
 
@@ -28,9 +27,9 @@ public class Songs extends AppCompatActivity {
         b.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent bIntent = new Intent(Songs.this, B.class);
-
-                startActivity(bIntent);
+                Intent intent = new Intent(Songs.this, Song.class);
+                intent.putExtra("group", "B");
+                startActivity(intent);
             }
         });
 
@@ -38,9 +37,9 @@ public class Songs extends AppCompatActivity {
         c.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent cIntent = new Intent(Songs.this, C.class);
-
-                startActivity(cIntent);
+                Intent intent = new Intent(Songs.this, Song.class);
+                intent.putExtra("group", "C");
+                startActivity(intent);
             }
         });
 
@@ -48,9 +47,9 @@ public class Songs extends AppCompatActivity {
         d.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent dIntent = new Intent(Songs.this, D.class);
-
-                startActivity(dIntent);
+                Intent intent = new Intent(Songs.this, Song.class);
+                intent.putExtra("group", "D");
+                startActivity(intent);
             }
         });
 
@@ -58,9 +57,9 @@ public class Songs extends AppCompatActivity {
         e.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent eIntent = new Intent(Songs.this, E.class);
-
-                startActivity(eIntent);
+                Intent intent = new Intent(Songs.this, Song.class);
+                intent.putExtra("group", "E");
+                startActivity(intent);
             }
         });
 
@@ -68,9 +67,9 @@ public class Songs extends AppCompatActivity {
         f.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent fIntent = new Intent(Songs.this, F.class);
-
-                startActivity(fIntent);
+                Intent intent = new Intent(Songs.this, Song.class);
+                intent.putExtra("group", "F");
+                startActivity(intent);
             }
         });
 
@@ -78,9 +77,9 @@ public class Songs extends AppCompatActivity {
         g.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent gIntent = new Intent(Songs.this, G.class);
-
-                startActivity(gIntent);
+                Intent intent = new Intent(Songs.this, Song.class);
+                intent.putExtra("group", "G");
+                startActivity(intent);
             }
         });
 
@@ -88,9 +87,9 @@ public class Songs extends AppCompatActivity {
         h.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent hIntent = new Intent(Songs.this, H.class);
-
-                startActivity(hIntent);
+                Intent intent = new Intent(Songs.this, Song.class);
+                intent.putExtra("group", "H");
+                startActivity(intent);
             }
         });
 
@@ -98,9 +97,9 @@ public class Songs extends AppCompatActivity {
         i.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent iIntent = new Intent(Songs.this, I.class);
-
-                startActivity(iIntent);
+                Intent intent = new Intent(Songs.this, Song.class);
+                intent.putExtra("group", "I");
+                startActivity(intent);
             }
         });
 
@@ -108,9 +107,9 @@ public class Songs extends AppCompatActivity {
         j.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent jIntent = new Intent(Songs.this, J.class);
-
-                startActivity(jIntent);
+                Intent intent = new Intent(Songs.this, Song.class);
+                intent.putExtra("group", "J");
+                startActivity(intent);
             }
         });
 
@@ -118,9 +117,9 @@ public class Songs extends AppCompatActivity {
         k.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent kIntent = new Intent(Songs.this, K.class);
-
-                startActivity(kIntent);
+                Intent intent = new Intent(Songs.this, Song.class);
+                intent.putExtra("group", "K");
+                startActivity(intent);
             }
         });
 
@@ -128,9 +127,9 @@ public class Songs extends AppCompatActivity {
         l.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent lIntent = new Intent(Songs.this, L.class);
-
-                startActivity(lIntent);
+                Intent intent = new Intent(Songs.this, Song.class);
+                intent.putExtra("group", "L");
+                startActivity(intent);
             }
         });
 
@@ -138,9 +137,9 @@ public class Songs extends AppCompatActivity {
         m.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent mIntent = new Intent(Songs.this, M.class);
-
-                startActivity(mIntent);
+                Intent intent = new Intent(Songs.this, Song.class);
+                intent.putExtra("group", "M");
+                startActivity(intent);
             }
         });
 
@@ -148,9 +147,9 @@ public class Songs extends AppCompatActivity {
         n.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent nIntent = new Intent(Songs.this, N.class);
-
-                startActivity(nIntent);
+                Intent intent = new Intent(Songs.this, Song.class);
+                intent.putExtra("group", "N");
+                startActivity(intent);
             }
         });
 
@@ -158,9 +157,9 @@ public class Songs extends AppCompatActivity {
         o.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent oIntent = new Intent(Songs.this, O.class);
-
-                startActivity(oIntent);
+                Intent intent = new Intent(Songs.this, Song.class);
+                intent.putExtra("group", "O");
+                startActivity(intent);
             }
         });
 
@@ -168,9 +167,9 @@ public class Songs extends AppCompatActivity {
         p.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent pIntent = new Intent(Songs.this, P.class);
-
-                startActivity(pIntent);
+                Intent intent = new Intent(Songs.this, Song.class);
+                intent.putExtra("group", "P");
+                startActivity(intent);
             }
         });
 
@@ -178,9 +177,9 @@ public class Songs extends AppCompatActivity {
         q.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent qIntent = new Intent(Songs.this, Q.class);
-
-                startActivity(qIntent);
+                Intent intent = new Intent(Songs.this, Song.class);
+                intent.putExtra("group", "Q");
+                startActivity(intent);
             }
         });
 
@@ -188,9 +187,9 @@ public class Songs extends AppCompatActivity {
         r.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent rarzIntent = new Intent(Songs.this, RaToRz.class);
-
-                startActivity(rarzIntent);
+                Intent intent = new Intent(Songs.this, Song.class);
+                intent.putExtra("group", "R");
+                startActivity(intent);
             }
         });
 
@@ -198,9 +197,9 @@ public class Songs extends AppCompatActivity {
         s.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent sIntent = new Intent(Songs.this, S.class);
-
-                startActivity(sIntent);
+                Intent intent = new Intent(Songs.this, Song.class);
+                intent.putExtra("group", "S");
+                startActivity(intent);
             }
         });
 
@@ -208,9 +207,9 @@ public class Songs extends AppCompatActivity {
         t.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent tIntent = new Intent(Songs.this, T.class);
-
-                startActivity(tIntent);
+                Intent intent = new Intent(Songs.this, Song.class);
+                intent.putExtra("group", "T");
+                startActivity(intent);
             }
         });
 
@@ -218,9 +217,9 @@ public class Songs extends AppCompatActivity {
         u.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent uIntent = new Intent(Songs.this, U.class);
-
-                startActivity(uIntent);
+                Intent intent = new Intent(Songs.this, Song.class);
+                intent.putExtra("group", "U");
+                startActivity(intent);
             }
         });
 
@@ -228,9 +227,9 @@ public class Songs extends AppCompatActivity {
         v.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent vIntent = new Intent(Songs.this, V.class);
-
-                startActivity(vIntent);
+                Intent intent = new Intent(Songs.this, Song.class);
+                intent.putExtra("group", "V");
+                startActivity(intent);
             }
         });
 
@@ -238,9 +237,9 @@ public class Songs extends AppCompatActivity {
         w.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent wIntent = new Intent(Songs.this, W.class);
-
-                startActivity(wIntent);
+                Intent intent = new Intent(Songs.this, Song.class);
+                intent.putExtra("group", "W");
+                startActivity(intent);
             }
         });
 
@@ -248,9 +247,9 @@ public class Songs extends AppCompatActivity {
         x.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent xIntent = new Intent(Songs.this, X.class);
-
-                startActivity(xIntent);
+                Intent intent = new Intent(Songs.this, Song.class);
+                intent.putExtra("group", "X");
+                startActivity(intent);
             }
         });
 
@@ -258,9 +257,9 @@ public class Songs extends AppCompatActivity {
         y.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent yIntent = new Intent(Songs.this, Y.class);
-
-                startActivity(yIntent);
+                Intent intent = new Intent(Songs.this, Song.class);
+                intent.putExtra("group", "Y");
+                startActivity(intent);
             }
         });
 
@@ -268,9 +267,9 @@ public class Songs extends AppCompatActivity {
         z.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent zIntent = new Intent(Songs.this, Z.class);
-
-                startActivity(zIntent);
+                Intent intent = new Intent(Songs.this, Song.class);
+                intent.putExtra("group", "Z");
+                startActivity(intent);
             }
         });
     }
