@@ -9,4 +9,10 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="com.example.android.musicalstructureapp.NowPlaying">
 
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="This activity is used to show what song is playing."
+        style="@style/Description"/>
+
 </RelativeLayout>

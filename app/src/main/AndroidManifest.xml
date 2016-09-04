@@ -22,6 +22,9 @@
             android:name=".Songs"
             android:label="Songs A-Z" />
         <activity
+            android:name=".NowPlaying"
+            android:label="Now Playing" />
+        <activity
             android:name=".Other"
             android:label="Other Audio" />
         <activity
@@ -31,87 +34,7 @@
             android:name=".AudioBooksActivity"
             android:label="Audiobooks" />
         <activity
-            android:name=".A"
-            android:label="Songs that start with A" />
-        <activity
-            android:name=".B"
-            android:label="Songs that start with B" />
-        <activity
-            android:name=".C"
-            android:label="Songs that start with C" />
-        <activity
-            android:name=".D"
-            android:label="Songs that start with D" />
-        <activity
-            android:name=".E"
-            android:label="Songs that start with E" />
-        <activity
-            android:name=".F"
-            android:label="Songs that start with F" />
-        <activity
-            android:name=".G"
-            android:label="Songs that start with G" />
-        <activity
-            android:name=".H"
-            android:label="Songs that start with H" />
-        <activity
-            android:name=".I"
-            android:label="Songs that start with I" />
-        <activity
-            android:name=".J"
-            android:label="Songs that start with J" />
-        <activity
-            android:name=".K"
-            android:label="Songs that start with K" />
-        <activity
-            android:name=".L"
-            android:label="Songs that start with L" />
-        <activity
-            android:name=".M"
-            android:label="Songs that start with M" />
-        <activity
-            android:name=".N"
-            android:label="Songs that start with N" />
-        <activity
-            android:name=".NowPlaying"
-            android:label="Now Playing"/>
-        <activity
-            android:name=".O"
-            android:label="Songs that start with O" />
-        <activity
-            android:name=".P"
-            android:label="Songs that start with P" />
-        <activity
-            android:name=".Q"
-            android:label="Songs that start with Q" />
-        <activity
-            android:name=".RaToRz"
-            android:label="Songs that start with R" />
-        <activity
-            android:name=".S"
-            android:label="Songs that start with S" />
-        <activity
-            android:name=".T"
-            android:label="Songs that start with T" />
-        <activity
-            android:name=".U"
-            android:label="Songs that start with U" />
-        <activity
-            android:name=".V"
-            android:label="Songs that start with V" />
-        <activity
-            android:name=".W"
-            android:label="Songs that start with W" />
-        <activity
-            android:name=".X"
-            android:label="Songs that start with X" />
-        <activity
-            android:name=".Y"
-            android:label="Songs that start with Y" />
-        <activity
-            android:name=".Z"
-            android:label="Songs that start with Z">
-        </activity>
+            android:name=".Song" />
 
     </application>
 

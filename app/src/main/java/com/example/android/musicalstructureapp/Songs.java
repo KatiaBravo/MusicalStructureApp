@@ -20,6 +20,7 @@ public class Songs extends AppCompatActivity {
                 Intent intent = new Intent(Songs.this, Song.class);
                 intent.putExtra("group", "A");
                 startActivity(intent);
+                System.out.print("These activities are for organizing the songs in order so that you can find your song easily.");
             }
         });
 
